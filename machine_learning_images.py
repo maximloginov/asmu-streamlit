@@ -33,7 +33,7 @@ model.targets_ru = {
     'Spine':                  'Позвоночник',
 }
 
-files = pathlib.Path('data_padchest').glob('*.png')
+files = pathlib.Path('data_padchest_small').glob('*.png')
 filename = st.selectbox('Выберите файл', [f for f in files])
 st.write(f'Файл: {filename}')
 
